@@ -1,0 +1,111 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292e5a;
+  animation: gradientAnimation 5s infinite;
+  background: linear-gradient(-45deg, #f06, #16a085);
+  background-size: 400% 400%;
+}
+
+.generator {
+  width: 450px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: blanchedalmond;
+}
+.uppercase{
+  margin: 10px;
+}
+.lowercase{
+  margin: 10px;
+}
+.number{
+  margin: 10px;
+}
+.symbol{
+  margin: 10px;
+}
+
+.generator__title,
+.password {
+  text-align: center;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.generator__form-control {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.generator__form-control input {
+  accent-color: #b2abff;
+}
+
+.non{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f3f4ff;
+}
+
+
+.generator__form-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.generator__form-actions .btn {
+  padding: 8px 12px;
+  color: #000108;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-btn {
+  border-radius: 5px;
+  background: whitesmoke;
+}
+
+.copy-btn {
+  border-radius: 5px;
+  background: white;
+}
+
+.history{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  background-color: linear-gradient(to right, #0252f4, #ffabab) ; 
+}
+.popup{
+  margin: 10px;
+}
+.password-history{
+background: rgba(255, 255, 255, 0)smoke;
+}
+
+
+
+
