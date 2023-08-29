@@ -1,0 +1,102 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292e5a;
+  animation: gradientAnimation 3s infinite;
+  background: linear-gradient(-45deg, rgb(231, 225, 228), #030303);
+  background-size: 400% 400%;
+}
+
+.generator {
+  width: 450px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: blanchedalmond;
+}
+.uppercase{
+  margin: 10px;
+}
+.lowercase{
+  margin: 10px;
+}
+.number{
+  margin: 10px;
+}
+.symbol{
+  margin: 10px;
+}
+
+.generator__title,
+.password {
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: white;
+}
+
+
+.generator__form-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.generator__form-actions .btn {
+  padding: 10px 10px;
+  color: #000108;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.clear-history-btn{
+  padding: 5px 5px;
+  color: #000108;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Password_history{
+  width: 320px;
+}
+.show-password{
+  padding: 5px 5px;
+  color: #000108;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  cursor: pointer;
+  margin: 10px;
+}
+.password-history{
+  padding: 5px 5px;
+  color: #000108;
+  border-radius: 10px;
+  background: rgb(79, 83, 83);
+}
+.password-history .title{
+  width: 300px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+}
+.passwords{
+  color: rgb(253, 253, 253);
+  margin-top: 10px;
+}
+
